@@ -36,8 +36,7 @@ asagidaki cumlelerden uygun olanini yazdirin.
         }else{
             System.out.println("Aranan metin cumle icinde birden fazla kullanilmistir. ");
         }
-
+        System.out.println("gddgd");
         }
-
 
     }
