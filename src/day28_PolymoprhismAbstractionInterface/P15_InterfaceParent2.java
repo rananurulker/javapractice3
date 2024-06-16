@@ -1,0 +1,2 @@
+package day28_PolymoprhismAbstractionInterface;public interface P15_InterfaceParent2 {
+}
