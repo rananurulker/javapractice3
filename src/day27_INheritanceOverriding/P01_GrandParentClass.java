@@ -1,15 +1,16 @@
-package day26_Inheritance;
+package day27_INheritanceOverriding;
 
-public class P04_GrandParentClass {
+public class P01_GrandParentClass {
 
-    P04_GrandParentClass() {
+    P01_GrandParentClass() {
         System.out.println("GP Parametresiz");
     }
-    P04_GrandParentClass(String s){
+    P01_GrandParentClass(String s){
+        this(12);
         System.out.println("GP string parametreli");
     }
 
-    P04_GrandParentClass(int i){
+    P01_GrandParentClass(int i){
         System.out.println("Gp int parametreli");
 
     }

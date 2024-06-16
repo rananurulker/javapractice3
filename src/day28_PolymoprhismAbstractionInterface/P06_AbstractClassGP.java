@@ -1,6 +1,6 @@
 package day28_PolymoprhismAbstractionInterface;
 
-public abstract class P06_AbstractClas {
+public abstract class P06_AbstractClassGP {
 
     //abstract method
     public abstract void method1();
@@ -8,6 +8,10 @@ public abstract class P06_AbstractClas {
 
     //cpncrete method
 
-    public void method3(){}
-    public void method4(){}
+    public void method3(){
+        System.out.println("abstractGP method3 calisti");
+    }
+    public void method4(){
+        System.out.println("abstractGP method 4 calisti");
+    }
 }

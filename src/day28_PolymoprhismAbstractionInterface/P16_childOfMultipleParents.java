@@ -26,6 +26,6 @@ public class P16_childOfMultipleParents
         obj.method2();
         obj.method3();
 
-        
+
     }
 }

@@ -1,2 +1,34 @@
-package day11_forLoopMethodCreation;public class P06_nestedForLoop {
+package day11_forLoopMethodCreation;
+
+import java.util.Scanner;
+
+public class P06_nestedForLoop {
+    public static void main(String[] args) {
+
+        /*
+    Kullanicidan satir sayisini alip
+    asagidaki sekli olusturun
+
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+
+ */
+
+        Scanner scan=new Scanner(System.in);
+        System.out.println("lutfen satir sayisi giriniz: ");
+        int satir=scan.nextInt();
+
+        for (int i = 1; i < satir; i++) {
+            for (int j = 1; j <i ; j++) {
+                System.out.print("* ");
+
+
+            }
+            System.out.println();
+
+        }
+    }
 }

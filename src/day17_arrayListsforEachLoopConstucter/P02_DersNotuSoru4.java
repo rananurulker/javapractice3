@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class P01_DersNotuSoru {
+public class P02_DersNotuSoru4 {
     public static void main(String[] args) {
         /*
 Verilen pozitif bir n tamsayisini alarak,

@@ -1,2 +1,39 @@
-package day17_arrayListsforEachLoopConstucter;public class P01_DersNotu2Soru {
+package day17_arrayListsforEachLoopConstucter;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class P03_DersNotuSoru2 {
+
+
+    /*
+Kullanicidan istedigi kadar isim alip,
+Q'ya bastiginda girdigi isimleri bize
+liste olarak dondurecek bir method olusturun.
+
+*/
+    public static void main(String[] args) {
+        System.out.println(isimListesiOlustur());
+
+    }
+
+    public static List<String> isimListesiOlustur() {
+
+        Scanner scan = new Scanner(System.in);
+        List<String> isimler = new ArrayList<>();
+        String girilenIsim = "";
+
+        while (!girilenIsim.equalsIgnoreCase("q")) {
+            System.out.print("Listeye eklenecek ismi giriniz: ");
+            girilenIsim = scan.nextLine();
+
+            if (girilenIsim.equalsIgnoreCase("Q")) {
+            isimler.add(girilenIsim);
+        }
+
+
+    }
+    return isimler;
+}
 }

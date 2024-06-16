@@ -1,4 +1,4 @@
-package day28_PolymorphismAbstractionInterface;
+package day28_PolymoprhismAbstractionInterface;
 
 public class P13_Parent {
     public void method1(){

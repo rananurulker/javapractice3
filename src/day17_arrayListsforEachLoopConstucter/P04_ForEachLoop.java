@@ -1,2 +1,39 @@
-package day17_arrayListsforEachLoopConstucter;public class P04_ForEachLoop {
-}
+package day17_arrayListsforEachLoopConstucter;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class P04_ForEachLoop {
+    public static void main(String[] args) {
+
+        /*Verilen bir array'de tekrar eden elementler icin,
+ mukerrer olanlari silip, tum elemanlardan  sadece 1 tane yapip
+ bize dondurecek bir method olusturun.
+ */
+
+        Integer [] arr={2,3,1,5,12,2,1,3,4,5,8,7,4,6,1,5,3,6,9,8,1,2,4,5,6,3,7,8,1235};
+
+        List<Integer> tekrarsizList=new ArrayList<>();
+
+        for (Integer each:arr) {
+            if (!tekrarsizList.contains(each)){
+                tekrarsizList.add(each);
+            }
+
+        }
+        System.out.println("Tekrarsiz List:"+tekrarsizList);
+        //Tekrarsiz List:[2, 3, 1, 5, 12, 4, 8, 7, 6, 9, 1235]
+
+        arr=new Integer[tekrarsizList.size()];
+        System.out.println(Arrays.toString(arr));//[null, null, null, null, null, null, null, null, null, null, null]
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i]=tekrarsizList.get(i);
+
+        }
+        System.out.println(Arrays.toString(arr));
+
+        //[2, 3, 1, 5, 12, 4, 8, 7, 6, 9, 1235]
+        }
+    }

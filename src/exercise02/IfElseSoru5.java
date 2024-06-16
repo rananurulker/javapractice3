@@ -2,7 +2,7 @@ package exercise02;
 
 import java.util.Scanner;
 
-public class EfELseSOru5 {
+public class IfElseSoru5 {
     public static void main(String[] args) {
         /*
         Soru 5- Kullanicidan bir harf isteyin,

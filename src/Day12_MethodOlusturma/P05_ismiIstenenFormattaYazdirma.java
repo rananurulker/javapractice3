@@ -2,7 +2,7 @@ package Day12_MethodOlusturma;
 
 import java.util.Scanner;
 
-public class P06_ismiIstenenFormattaYazdirma {
+public class P05_ismiIstenenFormattaYazdirma {
     public static void main(String[] args) {
 
 
