@@ -27,6 +27,8 @@ int sayi=1469; sayi = sayi / 10 => sayi’ya 46 degerini atar
             toplam+=dortBasamakliSayi%10;
             dortBasamakliSayi/=10;
 
+
+
         }System.out.println("girilen sayi rakamlar toplami: "+toplam);
 
 
