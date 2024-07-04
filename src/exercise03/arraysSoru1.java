@@ -1,0 +1,27 @@
+package exercise03;
+
+public class arraysSoru1 {
+    public static void main(String[] args) {
+        /*
+        Soru 1- Verilen bir int array’in
+        tum elemanlarini 2 artirip bize donduren bir method olusturun.
+        Eski array’i yeni haliyle kaydedin.
+         */
+
+        int [] array= {1,3,5};
+        array=increaseElementsByTwo(array);
+        for (int each : array) {
+            System.out.println(each+ " ");
+
+        }
+    }
+    public static int[] increaseElementsByTwo(int[] array){
+
+        for (int i = 0; i < array.length ; i++) {
+            array[i]+=2;
+
+        }
+        return array;
+
+    }
+}
