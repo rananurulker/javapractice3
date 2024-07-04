@@ -11,7 +11,7 @@ public class arraysSoru1 {
         int [] array= {1,3,5};
         array=increaseElementsByTwo(array);
         for (int each : array) {
-            System.out.println(each+ " ");
+            System.out.print(each+ " ");
 
         }
     }
