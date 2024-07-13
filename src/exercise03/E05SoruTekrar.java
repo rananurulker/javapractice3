@@ -31,7 +31,7 @@ public class E05SoruTekrar {
         //ust yarim elmas uzunlugu icin
         //satir
         for (int i = 1; i <= sayi; i++) {
-            //sutun
+            //sutun ve bosluk
             for (int j = i; j < sayi; j++) {
                 System.out.print(" ");
 
@@ -44,7 +44,7 @@ public class E05SoruTekrar {
             System.out.println();
 
         }
-        //alt kisim azalrak gider
+        //alt kisim azalarak gider
         for (int i = sayi; i >= 1; i--) {
             //sutun
             for (int j = sayi; j > i; j--) {
