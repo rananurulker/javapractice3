@@ -1,5 +1,7 @@
 package exercise03;
 
+import java.util.Scanner;
+
 public class E03_MultiplicationTable {
     public static void main(String[] args) {
          /*3----
@@ -17,6 +19,15 @@ public class E03_MultiplicationTable {
     5 x 10 = 50
     */
 
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("Lutfen carpimi yapilacak bir sayi giriniz: ");
+        int sayi= scanner.nextInt();
+        for (int i = 1; i <=10 ; i++) {
+            int sonuc=sayi*i;
+            System.out.println("Sonuc: "+ sayi + "x" + i + "=" + sonuc);
+
+        }
+
+        }
 
     }
-}
